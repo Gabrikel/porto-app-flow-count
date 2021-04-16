@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_porto_central"
+    android:orientation="vertical"
+    tools:context=".view.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_linear_layout"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <ImageView
+            android:id="@+id/imageLogo"
+            android:layout_width="20dp"
+            android:layout_height="32dp"
+            android:layout_margin="16dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/logo_al_white" />
+
+        <TextView
+            android:id="@+id/textMainTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/robotomedium"
+            android:text="@string/txtMainTitulo"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="0dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <Button
+            android:id="@+id/btnContPoint1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_button_main"
+            android:fontFamily="@font/robotomedium"
+            android:textSize="16dp"
+            android:text="@string/btnContPoint1"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/btnContPoint2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/robotomedium"
+            android:textSize="16dp"
+            android:background="@drawable/bg_button_main"
+            android:text="@string/btnContPoint2"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <Button
+            android:id="@+id/btnContPoint3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/robotomedium"
+            android:textSize="16dp"
+            android:background="@drawable/bg_button_main"
+            android:text="@string/btnContPoint3"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/btnContPoint4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/robotomedium"
+            android:textSize="16dp"
+            android:background="@drawable/bg_button_main"
+            android:text="@string/btnContPoint4"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

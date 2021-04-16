@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.PontoCritico4Activity">
+
+
+    <ImageView
+        android:layout_width="1000dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:src="@drawable/pc04" />
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="70dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/bg_button_delete"
+        android:layout_weight="1"
+        />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_linear_layout"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="1dp">
+
+            <ImageView
+                android:id="@+id/imageLogo"
+                android:layout_width="20dp"
+                android:layout_height="32dp"
+                android:layout_margin="16dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/logo_al_white" />
+
+            <TextView
+                android:id="@+id/textMainTitulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/robotomedium"
+                android:text="@string/txtMainTitulo"
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btn02"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="180dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="0dp"
+            android:background="@drawable/bg_button2"
+            android:text="@string/txt4SentidoMarataizes"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/btn01"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="50dp"
+
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="10dp"
+
+            android:background="@drawable/bg_button1"
+            android:text="@string/txt4SentidoBalanca"
+            android:textColor="#FFFFFF" />
+
+
+        <Button
+            android:id="@+id/btn03"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="140dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="65dp"
+            android:layout_marginEnd="17dp"
+            android:layout_marginRight="17dp"
+            android:layout_marginBottom="0dp"
+            android:background="@drawable/bg_button3"
+            android:text="@string/txt4SentidoMaroba"
+            android:textColor="#000000" />
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

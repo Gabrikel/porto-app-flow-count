@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">ContagemDeFluxo</string>
+
+
+    <!-- Vehicle Choose -->
+    <string name="btnCarro">CARRO DE\n PASSEIO</string>
+    <string name="btnUtilitario">UTILITÁRIO</string>
+    <string name="btnOnibus">ÔNIBUS</string>
+    <string name="btnCaminhao">CAMINHÃO</string>
+    <string name="btnReboque">REBOQUE</string>
+    <string name="btnCarreta">CARRETA</string>
+    <string name="btnMoto">MOTO</string>
+    <string name="btnReturn">Voltar</string>
+
+    <!-- General -->
+    <string name="txtQualVeiculo">Selecione o veículo:</string>
+    <string name="txtContagem">Contagem de Veículos</string>
+    <string name="txtMainTitulo">CONTAGEM - FLUXO DE VEÍCULOS</string>
+    <string name="txtSelectPC">Selecione o ponto de contagem:</string>
+
+    <!-- Main Activity -->
+    <string name="btnContPoint1">PONTO DE CONTAGEM 01</string>
+    <string name="btnContPoint2">PONTO DE CONTAGEM 02</string>
+    <string name="btnContPoint3">PONTO DE CONTAGEM 03</string>
+    <string name="btnContPoint4">PONTO DE CONTAGEM 04</string>
+
+    <!-- Vias Ponto Crítico 01 -->
+    <string name="btn01">ES-162 - Sentido Pr. Kennedy</string>
+    <string name="btn02">Sentido Jaqueira</string>
+    <string name="btn03">ES-060 - Sentido Marataízes</string>
+    <string name="btn04">ES-060 - Sentido Praia das Neves</string>
+
+    <!-- Vias Ponto Crítico 02 -->
+    <string name="txt2SentidoNeves">Sentido Praia das Neves</string>
+    <string name="txt2SentidoEs060">Sentido ES-060</string>
+
+    <!-- Vias Ponto Crítico 03 -->
+    <string name="txt3SentidoJaqueira">SENTIDO JAQUEIRA</string>
+    <string name="txt3SentidoAreial">Sentido Areial</string>
+    <string name="txt3SentidoBalanca">Sentido Trevo da Balança</string>
+    <!-- Vias Ponto Crítico 04 -->
+    <string name="txt4SentidoMaroba">Sentido Marobá</string>
+    <string name="txt4SentidoMarataizes">Sentido Marataízes</string>
+    <string name="txt4SentidoBalanca">Sentido Trevo da Balança</string>
+
+
+</resources>
